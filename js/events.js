@@ -13,10 +13,11 @@ function frameIt() {
   return;
 }
 
-$(document).ready(function(){
+/*$(document).ready(function(){
 
 // call functions here
 getIt()
 frameIt()
 
 });
+*/

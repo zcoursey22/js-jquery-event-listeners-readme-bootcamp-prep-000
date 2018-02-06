@@ -13,10 +13,21 @@ function frameIt() {
   return;
 }
 
+function pressIt() {
+  $('input').on('keydown', function() {
+    if (key.which == 69) {
+      alert('g was pressed');
+    }
+  });
+  return;
+}
+
 $(document).ready(function(){
 
 // call functions here
 getIt()
 frameIt()
+pressIt()
+submitIt()
 
 });
